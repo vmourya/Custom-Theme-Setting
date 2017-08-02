@@ -1,0 +1,108 @@
+.cts-add-setting-form{ width:40%; float:left; padding:0% 1%;}
+.cts-add-setting-form fieldset{float:left; width:100%;margin:10px 0;}
+.cts-add-setting-form fieldset label{width:19%; float:left;}
+.cts-add-setting-form fieldset input,.cts-add-setting-form fieldset textarea{width:70%; float:left; padding:5px;}
+.cts-add-setting-form fieldset textarea{resize: vertical;}
+.cts-add-setting-form fieldset input[type=radio],fieldset input[type=file]{ margin-right: 20px;margin-left: 10px; margin-top: 2px; width: auto;}
+.cts-add-setting-form label.type{float:left;width:auto;}
+.cts-add-setting-form span.error{border: 2px solid #ff0000;color:#ff0000;float: left;font-weight: bold;max-width: 100%;padding: 5px;text-align: left;width: 100%;}
+.cts-add-setting-form span.success{border: 2px solid #088A29;color: #088A29;float: left;font-weight: bold;max-width: 100%;padding: 5px;text-align: left;width: 100%;}
+.cts-add-setting-form div.status{float: left;height: 50px;padding: 1% 0;width: 90%;}
+.help-popup-container{position:relative; margin:0 10px; float:left;}
+.help-popup-container span.help{border: 1px solid #999999;border-radius: 50%;cursor: pointer;float: left;font-size: 18px;font-weight: bold;height: 18px;padding: 3px;text-align: center;width: 18px;}
+.help-text{background: #000000 none repeat scroll 0 0;border: 3px solid #abcabc;border-radius: 5px;color: #ffffff;left: 0;padding: 5px;position: absolute;top: 0;min-width: 250px;display:none;}
+#cts-field-list{width:55%; float:right; padding:0% 1%;}
+#cts-field-list table{width:100%; float:left;}
+#cts-field-list table tr:nth-child(odd){background:#F2F2F2;}
+#cts-field-list table tr:nth-child(even){background:#E6E6E6;}
+#cts-field-list table tr:hover{background:#CEE3F6}
+#cts-field-list table tr:first-child{background:#abc;}
+#cts-field-list table tr:first-child:hover{background:#abc;}
+#cts-field-list table tr td,#cts-field-list table tr th{padding:5px 10px; text-align:left; }
+#cts-field-list table a{text-decoration:none;margin:0 3px;}
+a.cts-delete {color: #ff0000;}
+.cts-setting-value {float: left;padding: 2% 0;width: 99%;}
+form.cts-setting-value-form {float: left;margin: 10px 0;width: 100%;}
+.cts-setting-value-form fieldset{margin:0; padding: 2%; border-bottom:1px solid #ddd; width:96%;}
+.cts-setting-value-form fieldset label{font-size:14px; font-weight:bold; width:auto; float:left; margin-bottom: 10px;}
+fieldset input[type=submit]{padding: 0 10px;width: auto;}
+.types-container{float:left; width:80%}
+.types-container > div {
+    float: left;
+    width: 100%;
+}
+.types-container > div > input {
+    margin-left: 0;
+}
+fieldset img{float:right; max-width:150px;}
+fieldset div.cleditorMain{float:left;}
+.width-800{width:50%; max-width: 97%; float:left;}
+.cts-setting-value-form input,.cts-setting-value-form textarea {
+    float: right;
+}
+.full-row form select {
+    width: 70%;
+}
+.cts-setting-value form > fieldset:first-child {
+    background: #454545 none repeat scroll 0 0;
+}
+.section-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+	cursor:pointer;
+	text-transform: uppercase;
+}
+.section-title > img {
+    float: left;
+    margin-right: 20px;
+    transform: rotate(90deg);
+    width: 20px;
+	/*transition:all 0.1s ease .1s;*/
+}
+.section-fields {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #aabbcc #800000;
+    border-image: none;
+    border-style: none solid;
+    border-width: medium 1px;
+    float: left;
+    width: calc(100% - 2px);
+	display:none;
+}
+.user-instruction {
+    float: right;
+    width: 47%;
+	max-width: 97%;
+}
+
+.user-instruction > p {
+    float: left;
+    font-size: 18px;
+    width: 100%;
+	margin-top: 0;
+}
+.user-instruction table {
+    margin: 10px 0;
+	width:100%;
+}
+.user-instruction table tr:nth-child(odd){
+	background:#e6e6e6;
+}
+.user-instruction table tr:nth-child(even){
+	background:#d2d2d2;
+}
+.user-instruction table tr:hover{
+	background:#cee3f6 ;
+}
+.user-instruction table tr:first-child{
+	background:#abc;
+}
+.user-instruction table tr td,.user-instruction table tr th{
+	text-align:left;
+	padding:5px;
+}
